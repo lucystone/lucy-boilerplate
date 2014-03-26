@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="assets/css/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
 
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
@@ -20,7 +20,49 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+       
+    
+<section="container">
+        
+<nav>
+    <ul id="navlist">
+        <li id="active"><a href="#" id="current">Home</a></li>
+        <li><a href="#">one</a></li>
+        <li><a href="#">two</a></li>
+        <li><a href="#">three</a></li>
+        <li><a href="#">four</a></li>
+        <li><a href="#">five</a></li>
+        <li><a href="#">six</a></li>
+    </ul>
+</nav>
+</section>
+
+
+
+
+
+<ul class="example-orbit" data-orbit>
+  <li>
+    <img src="assets/img/car.jpg" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption One.
+    </div>
+  </li>
+  <li>
+    <img src="assets/img/clock.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      Caption Two.
+    </div>
+  </li>
+  <li>
+    <img src="assets/img/street.jpg" alt="slide 3" />
+    <div class="orbit-caption">
+      Caption Three.
+    </div>
+  </li>
+</ul>
+
+
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
@@ -36,5 +78,12 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+
+    <script src="assets/js/foundation.js"></script>
+    <script src="assets/js/foundation.orbit.js"></script>
+     <script>
+      $(document).foundation();
+    </script>
+
     </body>
 </html>
